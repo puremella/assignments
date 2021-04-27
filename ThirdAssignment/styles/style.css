@@ -40,6 +40,8 @@ input {
   height: 38px;
   margin: 15px 10px 25px 10px;
   opacity: 0.33;
+  background-color: #e9e5e5;
+  border-width: 1px;
 }
 #containerThree {
   display: flex;
