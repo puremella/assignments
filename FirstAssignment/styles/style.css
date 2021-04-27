@@ -1,9 +1,10 @@
-section {
+#container {
   display: flex;
   border: 2px solid rgba(0, 200, 255, 0.4);
   border-radius: 1%;
-  padding: 0px 20px 0px 10px;
-  margin: 100px 200px 0px 200px;
+  padding: 0px 15px 0px 10px;
+  margin-right: 10px;
+  width: 500px;
 }
 h1 {
   color: rgba(0, 200, 255, 0.5);
