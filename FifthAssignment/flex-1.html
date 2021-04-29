@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-end;
+        background-color: DodgerBlue;
+      }
+
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+      .flex-container-1 {
+        display: flex;
+        height: 200px;
+        background-color: #f1f1f1;
+      }
+
+      .flex-container-1 > div {
+        background-color: DodgerBlue;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS FLEXBOX MODEL</h1>
+
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+    <div class="flex-container">
+      <div style="flex: 1">
+        <img src="image/logo.png" alt=""></div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+
+    <h1>FLEX ITEMS</h1>
+
+    <div class="flex-container-1">
+      <div>1</div>
+      <div style="align-self: flex-end">2</div>
+      <div style="align-self: flex-start">3</div>
+      <div>4</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../image/greenPic.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+#containerOne {
+  display: flex;
+  justify-content: space-evenly;
+}
+#containerOne p {
+  color: white;
+  flex-grow: 4;
+}
+#containerOne img {
+  flex-grow: 1;
+  padding-top: 12px;
+}
+#containerTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  height: 400px;
+}
+#containerTwo h1 {
+  font-size: 40px;
+}
+#containerThree {
+  display: flex;
+  flex-direction: row;
+}
+#containerFour {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+#childContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.firstClass {
+  font-family: inherit;
+  font-size: xx-large;
+  padding: 20px 180px 0px 400px;
+  color: rgb(68, 170, 170);
+}
+.secondClass {
+  font-family: inherit;
+  font-size: large;
+  padding: 10px 20px 0px 400px;
+  color: black;
+}
+.thirdClass {
+  font-family: inherit;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px 20px 0px 400px;
+  color: black;
+}
+.fourthClass {
+  font-family: inherit;
+  font-size: large;
+  padding: 10px 20px 0px 400px;
+  color: black;
+}
+#greenImage {
+  display: flex;
+}
+#containerFive {
+  display: flex;
+  margin-right: 50px;
+  justify-content: center;
+}
+#containerFive div p:nth-of-type(1) {
+  font-family: inherit;
+  font-size: large;
+  margin-bottom: 5px;
+}
+#containerFive button:nth-of-type(1) {
+  font-family: inherit;
+  font-size: large;
+  background-color: rgb(228, 56, 56);
+  border-radius: 5px;
+  margin: 10px 5px 5px 20px;
+  padding-left: 10px;
+}
+#containerFive button:nth-of-type(2) {
+  font-family: inherit;
+  font-size: large;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: hidden;
+}
+#containerFive img {
+  height: 150px;
+  width: 250px;
+}
+#containerFive p:nth-of-type(3) {
+  color: rgb(63, 150, 150);
+}
+.wrapper {
+  position: relative;
+}
+.green-box {
+  position: absolute;
+  z-index: 1;
+  background: rgb(79, 167, 79);
+  width: 36px;
+  left: 10%;
+  top: -45px;
+  height: 9em;
+  opacity: 1;
+  border-radius: 10px;
+}
+.green-box img {
+  padding: 5px;
+}
